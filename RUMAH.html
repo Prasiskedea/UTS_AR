@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UTS AR</title>
+  <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="" device-orientation-permission-ui="">
+
+        <a-sky color="#87CEEB" material="" geometry="" position="-0.16 -0.09 0"></a-sky>
+    
+    
+        <a-plane rotation="-90 0 0" width="100" height="100" color="#C0C0C0" material="color: #066f20" geometry="" scale="1 0.93 1"></a-plane>
+    
+    
+        <a-entity position="">
+            <a-box position="0 0.5 0" width="10" height="1" depth="8" color="#CD853F" material="color: #98022f" geometry="" scale="1.06 0.84 1.12">
+                <a-text value="Pondasi" align="center" color="#FFFFFF" scale="1 1 1.5" position="0 0.11096 4.1981" text=""></a-text>
+            </a-box><a-box position="18.66646 0.5 0" width="10" height="1" depth="8" color="#CD853F" material="color: #750023" geometry="" scale="1.06 0.84 1.12">
+                <a-text value="Pondasi" align="center" color="#FFFFFF" scale="1 1 1.5" position="0 0.11096 4.1981" text=""></a-text>
+            </a-box><a-box position="9.31612 0.5 0" width="10" height="1" depth="8" color="#CD853F" material="color: #850128" geometry="" scale="1.17 0.93 0.83">
+                <a-text value="Pondasi" align="center" color="#FFFFFF" scale="1 1 1.5" position="0 0.11096 4.1981" text="value: Lantai"></a-text>
+            </a-box>
+            <a-box position="9.61 -0.25 4.46507" width="10" height="1" depth="8" color="#CD853F" material="color: #496e4c" geometry="" scale="1.18 0.95 1.22" rotation="">
+                <a-text value="Pondasi" align="center" color="#FFFFFF" scale="1 1 1.5" position="0 1 0" text="value: "></a-text>
+            </a-box>
+            <a-box position="4.97824 -0.25 2.20369" width="10" height="1" depth="8" color="#CD853F" material="color: #496e4c" geometry="" scale="1.18 0.42 1.79" rotation="">
+                <a-text value="Pondasi" align="center" color="#FFFFFF" scale="1 1 1.5" position="0 1 0" text=""></a-text>
+            </a-box>
+    
+            <a-box position="0 3.14 0" width="10" height="7" depth="8" color="#B0E0E6" material="color: #f90133" geometry="" scale="1 2.04 1">
+                <a-text value="Dinding" align="center" color="#000000" scale="1.54 0.74 1.5" position="0 2.92022 4.54481" text="color: #ffffff"></a-text>
+            </a-box><a-box position="18.73115 3.14 0" width="10" height="7" depth="8" color="#B0E0E6" material="color: #db002c" geometry="" scale="1 2.04 1">
+                <a-text value="Dinding" align="center" color="#000000" scale="1.54 0.74 1.5" position="0 2.92022 4.54481" text=""></a-text>
+            </a-box><a-box position="9.33604 3.14 0" width="10" height="7" depth="8" color="#B0E0E6" material="color: #ff033c" geometry="" scale="1.02 1.43 0.78">
+                <a-text value="Dinding" align="center" color="#000000" scale="1 1 1.5" position="0 2.50022 4.54481" text="color: #ffffff"></a-text>
+            </a-box>
+    
+            <a-box position="-4.0752 0.25 1.59485" width="12" height="0.5" depth="3" color="#CD853F" material="" geometry="" rotation="0 0 -90" scale="1.08 1 0.12">
+                <a-text value="Teras Depan" align="center" color="#FFFFFF" scale="1 1 1.5" position="-2.86087 1.65143 55.26" text="value: " rotation="0 0 90"></a-text>
+            </a-box>
+            <a-box position="4.075 0.25 0.615" width="12" height="0.5" depth="3" color="#CD853F" material="" geometry="" rotation="0 0 -90" scale="1.08 1 0.12">
+                <a-text value="Teras Depan" align="center" color="#FFFFFF" scale="1 1 1.5" position="0 0.25 0" text=""></a-text>
+            </a-box>
+    
+            <a-circle position="0.11 12.40307 4.08762" radius="1.5" color="#FFA500" material="color: #ffffff" geometry="" scale="0.6 0.6 0.32"></a-circle><a-circle position="0.11 -13.76084 4.08762" radius="1.5" color="#FFA500" material="color: #ffffff" geometry="" scale="0.6 1.02 0.32"></a-circle><a-circle position="18.82938 12.40307 4.08762" radius="1.5" color="#FFA500" material="color: #ffffff" geometry="" scale="0.6 0.6 0.32"></a-circle>
+    
+            <a-box position="8.09079 6.78597 6.33277" width="3" height="3" depth="5" color="#CD853F" material="color: #1c35f9" geometry="" scale="1.61 0.08 0.77" rotation="-41.67 90 0">
+                <a-text value="Garasi" align="center" color="#FFFFFF" scale="1 1 1.5" position="0 1 0" text=""></a-text>
+            </a-box>
+            <a-box position="10.89845 6.77943 6.24243" width="3" height="3" depth="5" color="#CD853F" material="color: #1c36f8" geometry="" scale="1.66 0.08 0.79" rotation="40 90 0">
+                <a-text value="Garasi" align="center" color="#FFFFFF" scale="1 1 1.5" position="0 1 0" text=""></a-text>
+            </a-box>
+            <a-box position="8.06524 -11.10205 -27.08404" width="3" height="3" depth="5" color="#CD853F" material="color: #e89400" geometry="" scale="2.05 -0.1 2.2">
+                <a-text value="Garasi" align="center" color="#FFFFFF" scale="1 1 1.5" position="0 1 0" text=""></a-text>
+            </a-box>
+    
+            <a-entity position="0 8.5 0">
+                <a-box position="-2.955 3.56943 0.405" width="10" height="1" depth="8" color="#CD5C5C" material="color: #1b32ee" geometry="" rotation="0 0 40" scale="0.83 0.48 1.35">
+                    <a-text value="Atap" align="center" color="#FFFFFF" scale="1 1 1.5" position="-0.21 -0.05 4.59" text=""></a-text>
+                </a-box><a-box position="15.79502 3.56943 0.405" width="10" height="1" depth="8" color="#CD5C5C" material="color: #1c36f8" geometry="" rotation="0 0 40" scale="0.83 0.48 1.35">
+                    <a-text value="Atap" align="center" color="#FFFFFF" scale="1 1 1.5" position="-0.21 -0.05 4.59" text=""></a-text>
+                </a-box>
+                <a-box position="3.182 3.55233 0.40545" width="10" height="1" depth="8" color="#CD5C5C" material="color: #162bd0" geometry="" rotation="0 0 -40" scale="0.83 0.48 1.35">
+                    <a-text value="Atap" align="center" color="#FFFFFF" scale="1 1 1.5" position="0.21 -0.05 4.59" text=""></a-text>
+                </a-box><a-box position="21.84398 3.55233 0.40545" width="10" height="1" depth="8" color="#CD5C5C" material="color: #223bff" geometry="" rotation="0 0 -40" scale="0.83 0.48 1.35">
+                    <a-text value="Atap" align="center" color="#FFFFFF" scale="1 1 1.5" position="0.21 -0.05 4.59" text=""></a-text>
+                </a-box><a-box position="9.39 0.912 -1.7303" width="10" height="1" depth="8" color="#CD5C5C" material="color: #1528be" geometry="" rotation="0 90 -40" scale="0.49 0.24 1.1">
+                    <a-text value="Atap" align="center" color="#FFFFFF" scale="1 1 1.5" position="0.21 -0.05 4.59" text=""></a-text>
+                </a-box><a-box position="9.37049 0.59178 2.19828" width="10" height="1" depth="8" color="#CD5C5C" material="color: #1428be" geometry="" rotation="0 90 40" scale="0.58 0.17 1.09">
+                    <a-text value="Atap" align="center" color="#FFFFFF" scale="1 1 1.5" position="0.21 -0.05 4.59" text=""></a-text>
+                </a-box>
+                <a-triangle position="0.187 1.65711 -3.61" vertex-a="-5 0 4" vertex-b="5 0 4" vertex-c="0 0 0" color="#CD5C5C" material="color: #ca674e" geometry="vertexC: 0 100 0" rotation="0 -180 0" scale="1 0.043 0.097">
+                    <a-text value="Atap" align="center" color="#FFFFFF" scale="1 1 1.5" position="0 1 0" text=""></a-text>
+                </a-triangle><a-triangle position="18.9032 1.65711 -3.61" vertex-a="-5 0 4" vertex-b="5 0 4" vertex-c="0 0 0" color="#CD5C5C" material="color: #ca674e" geometry="vertexC: 0 100 0" rotation="0 -180 0" scale="1 0.043 0.097">
+                    <a-text value="Atap" align="center" color="#FFFFFF" scale="1 1 1.5" position="0 1 0" text=""></a-text>
+                </a-triangle>
+                <a-triangle position="0.097 1.662 3.62433" vertex-a="-5 0 4" vertex-b="5 0 4" vertex-c="0 0 0" color="#CD5C5C" material="color: #6b8e6b" geometry="vertexC: 0 100 0" rotation="" scale="1 0.043 0.167">
+                    <a-text value="Atap" align="center" color="#FFFFFF" scale="1 1 1.5" position="0 1 -60.9503" text=""></a-text>
+                </a-triangle><a-triangle position="18.92595 1.662 3.62433" vertex-a="-5 0 4" vertex-b="5 0 4" vertex-c="0 0 0" color="#CD5C5C" material="color: #577557" geometry="vertexC: 0 100 0" rotation="" scale="1 0.043 0.167">
+                    <a-text value="Atap" align="center" color="#FFFFFF" scale="1 1 1.5" position="0 1 -47.41533" text=""></a-text>
+                </a-triangle>
+            </a-entity>
+    
+            <a-entity position="-3 4.01 4">
+                <a-box width="3" height="3" depth="0.1" color="#808080" material="color: #ffffff" geometry="" scale="1.3 1.57 1" position="2.92 1.44 0">
+                    <a-text value="Jendela" align="center" color="#000000" scale="1 1 1.5" position="0 0.63 0.51" text=""></a-text>
+                </a-box>
+                <a-box width="3" height="3" depth="0.1" color="#808080" material="color: #ffffff" geometry="" scale="0.65 1 1" rotation="0 -90 0" position="-1.97 -0.74 -4.01">
+                    <a-text value="Jendela" align="center" color="#000000" scale="1 1 1.5" position="3.9407 1.5 -7.90197" text=""></a-text>
+                </a-box>
+            </a-entity>
+            <a-entity position="3 4.01 4">
+                <a-box width="3" height="3" depth="0.1" color="#808080" material="color: #ffffff" geometry="" rotation="0 -180 0" scale="1.3 1.57 1" position="15.87604 1.44 0">
+                    <a-text value="Jendela" align="center" color="#000000" scale="1 1 1.5" position="0 0.61 -0.2" text="" rotation="0 180 0"></a-text>
+                </a-box><a-box width="3" height="3" depth="0.1" color="#808080" material="color: #ffffff" geometry="" rotation="0 -180 0" scale="0.65 1 1" position="9.07 -0.57 -0.91">
+                    <a-text value="Jendela" align="center" color="#000000" scale="1 1 1.5" position="0 0.61 -0.2" text="" rotation="0 180 0"></a-text>
+                </a-box><a-box width="3" height="3" depth="0.1" color="#808080" material="color: #ffffff" geometry="" rotation="0 -180 0" scale="0.65 1 1" position="3.8 -0.56 -0.91">
+                    <a-text value="Jendela" align="center" color="#000000" scale="1 1 1.5" position="0 0.61 -0.2" text="" rotation="0 180 0"></a-text>
+                </a-box>
+                <a-box width="3" height="3" depth="0.1" color="#808080" material="color: #ffffff" geometry="" rotation="0 90 0" scale="0.65 1 1" position="1.97 -0.79 -4.01">
+                    <a-text value="Jendela" align="center" color="#000000" scale="1 1 1.5" position="0 1.5 0" text="" rotation=""></a-text>
+                </a-box>
+            </a-entity>
+    
+            <a-box width="2" height="3" depth="0.1" color="#8B0000" position="9.45 2.17 3.13" material="" geometry="" rotation="" scale="1.08 1.87 0.34">
+                <a-text value="Pintu" align="center" color="#FFFFFF" scale="1.48 0.77 1.5" position="0 0.81 0.52" text=""></a-text>
+                <a-text value="Pintu" align="center" color="#FFFFFF" scale="1 1 1.5" position="0 -0.25 0.52" text="value: 2113025028"></a-text>
+                <a-text value="Pintu" align="center" color="#FFFFFF" scale="1.09 0.77 0.79" position="0 -0.01 0.36" text="value: Prasiske Dea Veriani; color: #ffffff"></a-text>
+            </a-box>
+    
+            <a-cylinder position="6.8799 1.86463 7.76873" radius="0.2" height="6" color="#8B4513" material="" geometry="" scale="1 1.28 1"></a-cylinder><a-cylinder position="3.6699 12.56068 0.11945" radius="0.2" height="6" color="#8B4513" material="" geometry="" scale="4.7 0.98 4.7"></a-cylinder>
+            <a-cylinder position="12.0879 1.81675 7.93139" radius="0.2" height="6" color="#8B4513" material="" geometry="" scale="1 1.28 1"></a-cylinder>
+            <a-cylinder position="0.12201 10.31634 -3.93534" radius="0.2" height="6" color="#8B4513" material="" geometry="" scale="1 1.69 1" rotation="0 0 90"></a-cylinder><a-cylinder position="19.0428 10.31634 -3.93534" radius="0.2" height="6" color="#8B4513" material="" geometry="" scale="1 1.69 1" rotation="0 0 90"></a-cylinder>
+            <a-cylinder position="0.105 10.3 4.123" radius="0.2" height="6" color="#8B4513" material="" geometry="" scale="1.18 1.73 1" rotation="0 0 90"></a-cylinder><a-cylinder position="18.7625 10.3 4.123" radius="0.2" height="6" color="#8B4513" material="" geometry="" scale="1.18 1.73 1" rotation="0 0 90"></a-cylinder>
+        </a-entity>
+    
+        <a-entity camera="" position="8.674111619706748 6.433255282931148 20.77360007498334" rotation="-1.6042818263663057 0.6875493541569879 0" look-controls="" wasd-controls="fly: true" data-aframe-inspector-original-camera=""></a-entity>
+    <div class="a-loader-title" style="display: none;">Rumah 3D</div><div class="a-loader-title" style="display: none;">Rumah 3D</div><div class="a-loader-title" style="display: none;">UTS AR</div></a-scene>
+
+</body>
+</html>
